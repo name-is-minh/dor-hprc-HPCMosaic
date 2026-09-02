@@ -1,12 +1,17 @@
 {
-      
+   "groupScopeNote": {
+      "type": "staticText",
+      "value": "This form manages Linux groups used for shared directories. If your request concerns an allocation, SUs, or another account-related issue, close this form and select Get Help → Accounts.",
+      "isHeading": false
+   },
+
    "groupRequest": {
       "type": "radioGroup",
       "label": "Type of group request?*",
       "name": "groupRequest",
       "required": true,
       "options": [
-         { "value": "rgroup", "label": "Request group access" }
+         { "value": "rgroup", "label": "Request access to an existing group" }
       ]
    },
 
